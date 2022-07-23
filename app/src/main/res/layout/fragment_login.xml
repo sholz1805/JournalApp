@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.ui.Login"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:hint="Enter Email"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/background"
+         />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/background"
+
+        />
+
+    <TextView
+        android:id="@+id/register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginBottom="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Login"
+        android:textSize="20sp"/>
+</LinearLayout>

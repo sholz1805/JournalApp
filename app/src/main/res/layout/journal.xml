@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/journal_card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="20dp"
+    android:layout_marginBottom="30dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/journal_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Journal A"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:gravity="bottom" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
